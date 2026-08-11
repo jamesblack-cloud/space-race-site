@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Mission · Space Race Cannabis</title>
+  <meta name="description" content="How Space Race Cannabis is grown, tested and released.">
+  <link rel="icon" href="/images/logo-224.webp" type="image/webp">
+  <link rel="apple-touch-icon" href="/images/logo-512.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Poppins:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+  <script>
+    // Runs before first paint: hides the gate for a visitor who has already
+    // confirmed, so neither the gate nor the page flashes.
+    try {
+      if (localStorage.getItem('sr-age-verified') === 'yes') {
+        document.documentElement.className += ' age-ok';
+      }
+    } catch (e) { }
+  </script>
+</head>
+<body>
+<div class="age-gate" id="age-gate" role="dialog" aria-modal="true" aria-labelledby="age-title">
+  <div class="age-orbit age-orbit-one"></div>
+  <div class="age-orbit age-orbit-two"></div>
+  <div class="age-panel tech-corners">
+    <img class="age-logo" src="/images/logo-224.webp" alt="Space Race Cannabis" width="112" height="112">
+    <p class="eyebrow">Mission clearance required</p>
+    <h1 id="age-title">Confirm your age</h1>
+    <p>Select your province or territory to continue.</p>
+    <label class="age-select">Province or territory
+      <select id="age-province">
+        <option value="">Select…</option>
+        <option value="Alberta" data-age="18">Alberta</option>
+        <option value="British Columbia" data-age="19">British Columbia</option>
+        <option value="Manitoba" data-age="19">Manitoba</option>
+        <option value="New Brunswick" data-age="19">New Brunswick</option>
+        <option value="Newfoundland and Labrador" data-age="19">Newfoundland and Labrador</option>
+        <option value="Northwest Territories" data-age="19">Northwest Territories</option>
+        <option value="Nova Scotia" data-age="19">Nova Scotia</option>
+        <option value="Nunavut" data-age="19">Nunavut</option>
+        <option value="Ontario" data-age="19">Ontario</option>
+        <option value="Prince Edward Island" data-age="19">Prince Edward Island</option>
+        <option value="Quebec" data-age="21">Quebec</option>
+        <option value="Saskatchewan" data-age="19">Saskatchewan</option>
+        <option value="Yukon" data-age="19">Yukon</option>
+      </select>
+    </label>
+    <p class="age-note" id="age-note">You must be of legal age where you live to enter this site.</p>
+    <div class="age-actions">
+      <button class="button button-primary" id="age-confirm" type="button" disabled>I am of legal age <span>&rarr;</span></button>
+      <a class="button button-secondary" href="https://www.canada.ca/">Exit <span>&#8599;</span></a>
+    </div>
+    <p class="microcopy">Site access &middot; Canada &middot; Please consume responsibly</p>
+  </div>
+  <noscript>
+    <div class="age-noscript">This site requires JavaScript for age verification. Please enable JavaScript to continue.</div>
+  </noscript>
+</div>
+
+<main inert>
+      <section class="inner-hero mission-hero">
+  <header class="site-header">
+    <a href="/" class="brand-lockup" aria-label="Space Race Cannabis home">
+      <img src="/images/space-race-logo.webp" alt="" width="92" height="92">
+      <span>Space Race<br>Cannabis</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="/mission/">Mission</a>
+      <a href="/products/">Products</a>
+      <a href="/mission/#standards">Standards</a>
+      <a href="/find-a-store/">Where to find us</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+    <a href="/products/" class="header-cta">View products <span>&rarr;</span></a>
+    <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span></button>
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" hidden>
+      <a href="/mission/">Mission</a>
+      <a href="/products/">Products</a>
+      <a href="/mission/#standards">Standards</a>
+      <a href="/find-a-store/">Where to find us</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </header>
+
+        <div class="inner-hero-copy"><p class="eyebrow">Space Race programme</p><h1>Built like<br>a mission.</h1><p>A licensed Canadian production programme, run on procedure rather than improvisation.</p></div>
+      </section>
+      <section class="mission-story section-wrap"><div><p class="eyebrow">Programme overview</p><h2>Precision is the visual language.</h2></div><p>Space Race is produced in Canada under a Health Canada licence. Cannabis is a regulated product, so what we publish here is limited to what we can evidence: how a lot moves through the programme, and where it is listed for sale.</p></section>
+      <section class="standards-grid section-wrap" id="standards">
+        <article class="tech-corners"><span>01</span><div class="standard-icon standard-1">&#9004;</div><h2>Selection</h2><p>Cultivars are chosen for how consistently they perform across a full run, not for a single standout harvest.</p></article>
+        <article class="tech-corners"><span>02</span><div class="standard-icon standard-2">&#9004;</div><h2>Cultivation</h2><p>Grown under a federal licence, with environmental conditions and inputs recorded lot by lot.</p></article>
+        <article class="tech-corners"><span>03</span><div class="standard-icon standard-3">&#9004;</div><h2>Inspection</h2><p>Every lot is tested by an accredited laboratory before it can be released for sale.</p></article>
+        <article class="tech-corners"><span>04</span><div class="standard-icon standard-4">&#9004;</div><h2>Release</h2><p>Packaged, excise-stamped and shipped to provincial boards with full traceability records.</p></article>
+      </section>
+      <section class="mission-image-band"><div class="mission-band-copy"><p class="eyebrow">Botanical inspection</p><h2>Measure twice.<br>Launch once.</h2><a href="/products/" class="button button-primary">Explore products <span>&rarr;</span></a></div></section>
+      <section class="process-timeline section-wrap" id="process"><p class="eyebrow">Process sequence</p><h2>From intake to orbit.</h2><div>
+          <span><i>01</i><b>Source</b></span>
+          <span><i>02</i><b>Cultivate</b></span>
+          <span><i>03</i><b>Process</b></span>
+          <span><i>04</i><b>Test</b></span>
+          <span><i>05</i><b>Package</b></span>
+          <span><i>06</i><b>Release</b></span>
+      </div></section>
+      <div class="section-wrap">
+    <footer class="site-footer tech-corners">
+      <div class="footer-brand">
+        <img src="/images/space-race-logo.webp" alt="Space Race Cannabis" width="84" height="84">
+        <strong>Space Race<br>Cannabis</strong>
+        <span>Licensed producer &middot; Canada</span>
+      </div>
+      <div class="footer-column"><b>Mission</b><a href="/mission/">Our mission</a><a href="/mission/#standards">Standards</a><a href="/mission/#process">Process</a></div>
+      <div class="footer-column"><b>Products</b><a href="/products/">All products</a><a href="/products/?format=dried-flower">Dried flower</a><a href="/products/?format=pre-rolls">Pre-rolls</a></div>
+      <div class="footer-column"><b>Connect</b><a href="/find-a-store/">Where to find us</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a></div>
+      <div class="status-panel">
+        <span class="eyebrow">Availability</span>
+        <strong><i></i> 56 products listed</strong>
+        <div class="status-bars"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <small>Eight provinces &amp; territories</small>
+      </div>
+      <div class="footer-bottom"><span>&copy; 2026 Space Race Cannabis</span><span>Legal age only &middot; Please consume responsibly</span></div>
+    </footer>
+
+      </div>
+    </main>
+  <script src="/app.js" defer></script>
+</body>
+</html>
