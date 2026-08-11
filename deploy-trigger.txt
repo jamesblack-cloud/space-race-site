@@ -1,0 +1,2 @@
+Edit this file to re-trigger a Pages deploy when a run gets stuck.
+scaffold created 2026-08-11
